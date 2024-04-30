@@ -4,7 +4,7 @@ import styles from './Equipe.module.css'
 import Link from 'next/link';
 import Image from 'next/image'
 import sedric_photo from '@/public/img/Sedric.png'
-import otniel_photo from '@/public/img/Otniel2.png'
+import otniel_photo from '@/public/img/otniel2.png'
 import gladice_photo from '@/public/img/Gladice.png';
 import invite_photo from '@/public/img/Invite.png';
 
