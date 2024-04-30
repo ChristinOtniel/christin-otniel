@@ -1,0 +1,13 @@
+{
+    "app.header.menu.link1": "Home",
+    "app.header.menu.link2": "About",
+    "app.header.menu.link3": "Services",
+    "app.header.menu.link4": "Portfolio",
+    "app.header.menu.link5": "Teams",
+    "app.header.menu.link6": "Contact",
+    "app.header.menu.link7": "Appointment",
+    "app.page.About.p": "I am passionate about software development and constantly strive to push the boundaries of my skills to create innovative and effective solutions. With a solid background in computer science and several years of practical experience, I am equipped to tackle a variety of development projects with confidence and expertise.\n\nMy mission is to turn ideas into reality. Whether it's designing dynamic web applications, creating custom software solutions, or developing intuitive mobile applications, I am committed to delivering high-quality products that meet the needs of my clients.\n\nI am comfortable with a range of programming languages, frameworks, and development tools, including Java, C#, HTML, CSS, JavaScript, and frameworks like React.JS, Next.JS, and Express.JS of Node.js. I am also passionate about continuous learning and always stay updated with the latest technologies and industry best practices.\n\nBeyond pure development, I believe that collaboration and communication are essential for success in the field of software development. I am an enthusiastic team player, capable of working effectively with designers, project managers, and other developers to achieve common goals.\n\nBrowse through my portfolio to discover some of my past projects and see how I have contributed to solving problems and creating innovative solutions. If you have a project you would like to discuss, feel free to contact me. I am always open to new opportunities and would be happy to discuss how I can help you achieve your goals.",
+    "app.page.Home.p1": "Hello, My name is:",
+    "app.page.Home.p2": "I'm :"
+    
+}

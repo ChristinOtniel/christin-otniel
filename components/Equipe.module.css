@@ -1,0 +1,131 @@
+.grid {
+    display: grid;
+    grid-template-columns: 18rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.texte{
+text-align: center;
+
+}
+
+
+
+.card.dark {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+ }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    width: 16.5rem;
+    height: 22.5rem;
+    border-radius: 10px;
+    border: 5px solid var(--first-color);
+    transition: 0.5s;
+}
+
+.card:hover {
+    width: 16.5rem;
+    height: 22.5rem;
+}
+
+.card img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.Intervenant_title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.1rem;
+    align-items: center;
+}
+
+.card h2 {
+    color: var(--first-color);
+}
+
+.card Link{
+    color: var(--first-color);
+}
+
+.card i {
+    color: var(--first-color-second);
+    font-size: 2rem;
+}
+
+.card i:hover {
+    color: var(--first-color-alt);
+}
+
+.Intervenant_social_media {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.icon {
+    font-size: 2rem;
+    color: var(--first-color-alt);
+    margin-right: var(--mb-0-75);
+}
+
+/********** GESTION DES TAILLES D'ECRAN ************/
+
+/*****  LARGEUR SUPERIEURE a 568px et INFERIEURE a 768px  ****/
+@media screen and (min-width: 568px) {
+    .grid {
+        grid-template-columns: 15rem 15rem;
+        gap: 1.5rem;
+    }
+
+    .card {
+        width: 15rem;
+        height: 27rem;
+    }
+
+    .card:hover {
+        width: 16rem;
+        height: 27.5rem;
+    }
+}
+
+/*****  LARGEUR SUPERIEURE a 1000px et INFERIEURE a 1200px ****/
+@media screen and (min-width: 1000px) {
+    .card {
+        gap: 2rem;
+        width: 20rem;
+        height: 28rem;
+    }
+
+    .grid {
+        grid-template-columns: 20rem 20rem;
+        gap: 2rem;
+    }
+
+    .card:hover {
+        width: 20.5rem;
+        height: 28.5rem;
+    }
+
+    .card img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+    }
+}
+
+/*****  LARGEUR SUPERIEURE a 1200px****/
+@media screen and (min-width: 1200px) {
+    .grid {
+        grid-template-columns: 20rem 20rem 20rem;
+        gap: 3rem;
+    }
+}

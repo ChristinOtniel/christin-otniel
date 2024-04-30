@@ -1,0 +1,27 @@
+
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+
+
+.projectCard {
+  width: 150;
+  height: 200px; /* Hauteur souhaitée pour chaque image */
+  
+}
+
+
+
+.projectCard img {
+  width: 100%; /* Assurer que les images remplissent la largeur de leur conteneur */
+  height: 100%; /* Assurer que les images remplissent la hauteur de leur conteneur */
+  object-fit: cover;
+  overflow: hidden; /* Pour cacher les parties des images qui dépassent */
+  transition: transform 0.3s ease-in-out; /* Transition fluide pour l'effet hover */
+}
+
+.projectCard img:hover {
+  transform: scale(1.05); /* Augmenter légèrement la taille de la carte au survol */
+}

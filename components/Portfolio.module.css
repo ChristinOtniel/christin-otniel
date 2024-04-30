@@ -1,0 +1,17 @@
+/* Portfolio.module.css */
+.h2{
+  text-align: center;
+}
+.section {
+  display: flex;
+   flex-wrap: wrap;
+    
+  }
+  
+  .projects {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    gap: 10px;
+  }
+  

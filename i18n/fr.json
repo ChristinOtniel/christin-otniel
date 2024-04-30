@@ -1,0 +1,12 @@
+{
+    "app.header.menu.link1": "Accueil",
+    "app.header.menu.link2": "A propos",
+    "app.header.menu.link3": "Services",
+    "app.header.menu.link4": "Portfolio",
+    "app.header.menu.link5": "Equipe",
+    "app.header.menu.link6": "Contact",
+    "app.header.menu.link7": "Prendre Rdv",
+    "app.page.About.p": "Je suis passionné par le développement logiciel et je m'efforce constamment de repousser les limites de mes compétences pour créer des solutions innovantes et efficaces. Avec une formation solide en informatique et plusieurs années d'expérience pratique, je suis équipé pour aborder une variété de projets de développement avec confiance et expertise.\n\nMa mission est de transformer des idées en réalité. Que ce soit en concevant des applications web dynamiques, en créant des solutions logicielles sur mesure ou en développant des applications mobiles intuitives, je m'engage à fournir des produits de haute qualité qui répondent aux besoins de mes clients.\n\nJe suis à l'aise avec une gamme de langages de programmation, de frameworks et d'outils de développement, notamment Java, C#, HTML, CSS, JavaScript et des frameworks comme React.JS, Next.JS et Express.JS de Node.js.. Je suis également passionné par l'apprentissage continu et je suis toujours à l'affût des dernières technologies et des meilleures pratiques de l'industrie.\n\nAu-delà du développement pur, je suis convaincu que la collaboration et la communication sont essentielles pour réussir dans le domaine du développement logiciel. Je suis un joueur d'équipe enthousiaste, capable de travailler efficacement avec des designers, des chefs de projet et d'autres développeurs pour atteindre des objectifs communs.\n\nNaviguez à travers mon portfolio pour découvrir certains de mes projets passés et voir comment j'ai contribué à résoudre des problèmes et à créer des solutions innovantes. Si vous avez un projet que vous aimeriez discuter, n'hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles opportunités et je serais ravi de discuter de la façon dont je peux vous aider à atteindre vos objectifs.",
+    "app.page.Home.p1": "Salut,Je me nomme:",
+    "app.page.Home.p2": "Je suis :"
+}

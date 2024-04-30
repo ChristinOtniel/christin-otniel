@@ -1,0 +1,73 @@
+/* Services.module.css */
+
+
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center; 
+    /* align-items: flex-start;  */
+  }
+
+.section {
+    margin-top: 10px;
+ }
+ 
+ .service {
+    background-color: var(--service-color);
+    padding: 50px;
+    margin: 5px;
+    cursor: pointer;
+    width: 500px;
+    border-radius: 10px;
+    border: 5px solid var(--first-color);
+ }
+
+ .dark {
+   background-color: black;
+   color: white;
+   border: 2px solid white;
+}
+ 
+ .service h3 {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .service h3 span {
+    margin-right: 10px;
+ }
+ 
+ .service h3 svg {
+    font-size: 20px;
+ }
+ 
+ .languages {
+    padding-left: 20px;
+ }
+ 
+ .languages p {
+    margin: 5px 0;
+ }
+
+ .progress {
+   background-color: #ddd;
+    height: 8px;
+    border-radius: 10px;
+    margin-bottom: 5px; /* Ajoute une marge inférieure pour séparer les barres de progression */
+    overflow: hidden; /* Masque tout contenu dépassant de la barre de progression */
+ }
+ 
+ .progressBar {
+    background-color: #4caf50; /* Couleur de la barre de progression */
+    height: 100%; /* Hauteur de la barre de progression */
+    width: 0; /* Largeur de la barre de progression, qui sera définie dynamiquement en fonction du pourcentage */
+    border-radius: 10px; /* Coins arrondis de la barre de progression */
+ }
+ 
+ 
+ 

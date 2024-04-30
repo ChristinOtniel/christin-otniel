@@ -1,0 +1,60 @@
+
+  
+  .header h2 {
+    text-align: center;
+  }
+
+  .aboutContainer{
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .bio {
+    flex: 1;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bio h3 {
+    color: var(--text-color);
+  }
+  
+  .bio span {
+    color: var(--first-color);
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .info ul li {
+    margin-bottom: 10px;
+  }
+  
+  .info span {
+    font-weight: bold;
+  }
+  
+  .hireMe button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--first-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
