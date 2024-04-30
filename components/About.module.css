@@ -1,4 +1,6 @@
-
+.section{
+  display: flex;
+}
   
   .header h2 {
     text-align: center;

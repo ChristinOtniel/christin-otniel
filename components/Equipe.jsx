@@ -4,7 +4,7 @@ import styles from './Equipe.module.css'
 import Link from 'next/link';
 import Image from 'next/image'
 import sedric_photo from '@/public/img/Sedric.png'
-import otniel_photo from '@/public/img/Otniel.jpg'
+import otniel_photo from '@/public/img/Otniel2.png'
 import gladice_photo from '@/public/img/Gladice.png';
 import invite_photo from '@/public/img/Invite.png';
 
@@ -20,13 +20,13 @@ export default function Intervenants() {
 
     return <section className={styles.section} id='Equipe'>
         <h1 className='title'> Equipes</h1>
-        <div className='texte'> "CODIN, dispose d'une équipe de professionnels hautement qualifiés et bien formés, prêts à relever tous les défis dans le domaine de la programmation informatique. Avec une expérience étendue et une expertise approfondie dans divers domaines de développement logiciel, notre équipe est parfaitement équipée pour répondre aux besoins uniques de chaque projet.
+        <div className='texte'> CODIN, dispose d&apos;une équipe de professionnels hautement qualifiés et bien formés, prêts à relever tous les défis dans le domaine de la programmation informatique. Avec une expérience étendue et une expertise approfondie dans divers domaines de développement logiciel, notre équipe est parfaitement équipée pour répondre aux besoins uniques de chaque projet.
 
-            Nous comprenons l'importance de livrer des solutions de haute qualité, dans les délais impartis et conformément aux exigences spécifiques de nos clients. Notre approche centrée sur le client et notre engagement envers l'excellence nous permettent de garantir la satisfaction de nos clients à chaque étape du processus de développement.
+            Nous comprenons l&apos;importance de livrer des solutions de haute qualité, dans les délais impartis et conformément aux exigences spécifiques de nos clients. Notre approche centrée sur le client et notre engagement envers l&apos;excellence nous permettent de garantir la satisfaction de nos clients à chaque étape du processus de développement.
 
-            Que ce soit pour la conception et le développement d'applications web, mobiles ou d'entreprise, la création de sites web dynamiques et réactifs, ou la mise en œuvre de solutions logicielles sur mesure, notre équipe est prête à fournir des résultats exceptionnels à chaque projet.
+            Que ce soit pour la conception et le développement d&apos;applications web, mobiles ou d&apos;entreprise, la création de sites web dynamiques et réactifs, ou la mise en œuvre de solutions logicielles sur mesure, notre équipe est prête à fournir des résultats exceptionnels à chaque projet.
 
-            Faites confiance à CODIN pour vous fournir une expertise technique de premier ordre, un service client exceptionnel et des solutions logicielles innovantes qui dépassent vos attentes. Ensemble, nous pouvons réaliser vos projets informatiques les plus ambitieux."
+            Faites confiance à CODIN pour vous fournir une expertise technique de premier ordre, un service client exceptionnel et des solutions logicielles innovantes qui dépassent vos attentes. Ensemble, nous pouvons réaliser vos projets informatiques les plus ambitieux.
         </div>
         <div className={styles.grid + ' ' + 'container'}>
             {/* Intervenant1 */}

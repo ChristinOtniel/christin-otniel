@@ -13,7 +13,7 @@ export default function Projet({ project }) {
         <h3>{title}</h3>
         <p>{description}</p>
         <Link href={githubUrl} target="_blank">
-        <Image src={imageUrl} alt={title} />
+          <Image src={imageUrl} alt={title}/>
         </Link>
         <div className={styles.links}>
           <Link href={githubUrl} target="_blank" rel="noopener noreferrer">GitHub</Link>

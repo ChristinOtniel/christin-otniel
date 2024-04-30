@@ -34,8 +34,9 @@ export default function Home() {
         <section className={styles.section}>
             <div className={styles.container}>
 
+
                 <div className={styles.container2}>
-                    <p className={styles.container3}><FormattedMessage id='app.page.Home.p1' /> <span className={styles.container4}>{name}</span></p>
+                    <p className={styles.container5}><FormattedMessage id='app.page.Home.p1' /> <span className={styles.container4}>{name}</span></p>
                     <p className={styles.container5}><FormattedMessage id='app.page.Home.p2' /> <span className={styles.container6}>{profession}</span></p>
 
                 </div>

@@ -92,7 +92,7 @@ export default function Services() {
          <div className={styles.service }>
             <p></p>
             <h3 onClick={toggleMobile}>
-               <span>Développeur d'Application Mobile</span>
+               <span>Développeur d&apos;Application Mobile</span>
                {mobileOpen ? <FaChevronUp /> : <FaChevronDown />}
             </h3>
             {mobileOpen && (
@@ -113,7 +113,7 @@ export default function Services() {
          <div className={styles.service }>
             <p></p>
             <h3 onClick={toggleDesktop}>
-               <span>Développeur d'Application de Bureau</span>
+               <span>Développeur d&apos;Application de Bureau</span>
                {desktopOpen ? <FaChevronUp /> : <FaChevronDown />}
             </h3>
             {desktopOpen && (

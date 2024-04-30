@@ -65,7 +65,7 @@ export default function Portfolio() {
     <div>
       <h2 className={styles.h2}>Portfolio</h2>
       
-      <div className="styles.projects">
+      <div className={styles.projects}>
         {projects.map(project => (
           <Projet key={project.id} project={project} />
         ))}
