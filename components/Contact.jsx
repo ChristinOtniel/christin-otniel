@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import styles from '@/components/Contact.module.css';
 import { FaInstagram, FaFacebookF, FaBlenderPhone, FaWhatsapp, FaTwitter } from "react-icons/fa";
-
+import emailjs from "@emailjs/browser"
 import Link from 'next/link';
 
 /**
@@ -64,12 +64,13 @@ export default function Contact() {
                 message: formData.get('message'),
             }
             emailjs.send(
-                'service_7xr0l1o',      //SERVICE ID
-                'template_qxyqu87',     //TEMPLATE ID
+                'service_gsibgkn',      //SERVICE ID
+                'template_m7dfkbn',     //TEMPLATE ID
                 templateParams,
-                'EafQMSog5KfEZpIoZ'     //USER PUBLIC KEY
+                'NzG8J-4rJ6eqNuzRi'     //USER PUBLIC KEY
             ).then(
                 (response) => {
+                    console.log("ok")
                     setInfosResults('Votre message a été envoyé avec succès. Nous vous reviendrons très bientôt.')
                     form.reset();
                 },
