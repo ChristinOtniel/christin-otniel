@@ -1,8 +1,5 @@
 /* Services.module.css */
 
-
-
-
 .content {
    display: grid;
    grid-template-columns: auto;
@@ -11,9 +8,7 @@
    /* align-items: flex-start;  */
 }
 
-.section {
-   margin-top: 10px;
-}
+
 
 .service {
    background-color: var(--service-color);

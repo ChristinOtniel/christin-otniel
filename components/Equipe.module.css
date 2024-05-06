@@ -1,15 +1,20 @@
+.section{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
 .grid {
     display: grid;
-    grid-template-columns: 18rem;
-    gap: 4rem;
+    grid-template-columns: 20rem;
+    gap: 2rem;
     justify-content: center;
 }
 
-.texte{
-text-align: center;
-
-}
-
+.header h2 {
+    text-align: center;
+  }
 
 
 .card.dark {
@@ -24,21 +29,21 @@ text-align: center;
     align-items: center;
     gap: 1.5rem;
     padding: 1.5rem;
-    width: 16.5rem;
-    height: 22.5rem;
+    width: 18.5rem;
+    height: 25.5rem;
     border-radius: 10px;
     border: 5px solid var(--first-color);
     transition: 0.5s;
 }
 
 .card:hover {
-    width: 16.5rem;
-    height: 22.5rem;
+    width: 18.5rem;
+    height: 25.5rem;
 }
 
 .card img {
-    width: 6rem;
-    height: 6rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
 }
 
@@ -68,7 +73,7 @@ text-align: center;
 
 .Intervenant_social_media {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .icon {

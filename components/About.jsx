@@ -3,7 +3,7 @@
 import styles from './About.module.css';
 //import Link from 'next/link';
 import { FormattedMessage } from 'react-intl';
-
+import Link from 'next/link';
 
 export default function About() {
   return <section className='section' id='about'>
@@ -27,9 +27,11 @@ export default function About() {
           <div className={styles.info}>
             <ul>
               <li>Website: <span>www.domain.com</span></li>
-              <li>Email: <span>info@gmail.com</span></li>
+              <li>Email: <span>
+                <Link href="/Contact" >
+                  <FormattedMessage id='app.header.menu.link6' />
+                </Link></span></li>
               <li>Degree: <span>DEC Programmation Informatique</span></li>
-              <li>Phone: <span>+1 438-223-7533</span></li>
               <li>City: <span>Canada</span></li>
               <li>Freelance: <span>Disponible</span></li>
               <li>Année d&apos;experience: <span>07+</span></li>

@@ -2,13 +2,14 @@
 .project{
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 
 .projectCard {
   width: 150;
   height: 200px; /* Hauteur souhaitée pour chaque image */
-  
+  margin: 60px;
 }
 
 

@@ -40,6 +40,7 @@
   .nav__brand {
     display: flex;
     align-items: center;
+    height: 100%;
   }
   
   .nav__menu {
@@ -53,19 +54,12 @@
     cursor: pointer;
     display: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
-  .subMenu {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    margin-top: 0.5rem;
-  }
+ 
+
   
-  .sub__menu_hiden {
-    display: none;
-  }
   
   
   /********** GESTION DES TAILLES D'ECRAN ************/
@@ -79,17 +73,19 @@
   
     .nav__menu {
       position: fixed;
-      top: 5rem;
+      top: 4rem;
       right: 0;
-      width: 12rem;
-      height: 25vh;
+      width: 8rem;
+      height: 40vh;
+      transform: translateX(100%);
       flex-direction: column;
       background-color: var(--first-color);
-      transform: translateX(100%);
       transition: .3s ease-in;
       gap: .1rem;
     }
   }
+
+   
   
   /*****  LARGEUR SUPERIEURE a 768px****/
   @media screen and (min-width: 768px) {
@@ -109,7 +105,16 @@
     }
   }
   
-  /*Nav Active Class*/
-  .nav__active {
-    transform: translateX(0);
-  }
+  
+
+/*Nav Active Class*/
+.nav__active {
+  transform: translateX(0);
+}
+
+
+  
+  
+  
+  
+ 

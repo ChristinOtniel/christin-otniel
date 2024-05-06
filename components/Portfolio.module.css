@@ -11,6 +11,18 @@
 
 .projects {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto ;
   justify-content: center;
+width: auto;
+
+}
+
+@media screen and (min-width:1024px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+   
+  
+  }
 }

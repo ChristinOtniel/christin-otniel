@@ -1,11 +1,11 @@
 'use client';
 import Projet from '@/components/Projet'
 import styles from './Portfolio.module.css';
-import JeuConcour from '@/public/img/Jeu Concour.png';
-import LivresOnline from '@/public/img/LivresOnline.png';
-import Roguelike from '@/public/img/Roguelike.png';
-import GoldenBusiness from '@/public/img/GoldenBusiness.png';
-import MVVB from '@/public/img/MVVB.png';
+import JeuConcour from '@/public/img/Jeu Concour.jpeg';
+import LivresOnline from '@/public/img/LivresOnline.jpeg';
+import Roguelike from '@/public/img/Roguelike.jpeg';
+import GoldenBusiness from '@/public/img/GoldenBusiness.jpeg';
+import MVVB from '@/public/img/MVVB.jpeg';
 
 
 
@@ -14,7 +14,7 @@ export default function Portfolio() {
     {
       id: 1,
       title: 'Projet 1',
-      description: 'jsadnfansf fnvnjavn',  
+      description: 'Ceci est un jeu concour  ',  
       imageUrl: JeuConcour,
       width: 300,
       height: 50,
@@ -23,7 +23,7 @@ export default function Portfolio() {
     {
       id: 2,
       title: 'Projet 2',
-      description: 'Description du projet 2...',
+      description: 'Jeu du donjon roguelique',
       imageUrl: Roguelike,
       width: 300,
       height: 50,
@@ -32,7 +32,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: 'Projet 3',
-      description: 'Description du projet 2...',
+      description: 'Site de gestion de vente en ligne d\'un restaurant',
       imageUrl: GoldenBusiness,
       width: 300,
       height: 50,
@@ -41,7 +41,7 @@ export default function Portfolio() {
     {
       id: 4,
       title: 'Projet 4',
-      description: 'Description du projet 2...',
+      description: 'LivresOnlies(site de vente de livre en ligne)',
       imageUrl: LivresOnline,
       width: 300,
       height: 50,
@@ -50,7 +50,7 @@ export default function Portfolio() {
     {
       id: 5,
       title: 'Projet 5',
-      description: 'Description du projet 2...',
+      description: 'MVVB(Mieux Vivre ET Vivre Bien) App',
       imageUrl: MVVB,
       width: 300,
       height: 50,

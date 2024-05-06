@@ -16,7 +16,7 @@
   
   .content {
     display: flex;
-    flex-wrap: wrap;
+   flex-direction: column;
     padding: 30px;
     justify-content: center;
     align-items: center;
@@ -45,10 +45,16 @@
   .info ul li {
     margin-bottom: 10px;
   }
+
+  
   
   .info span {
     font-weight: bold;
   }
+
+  .info  span link{
+    color: white;
+    }
   
   .hireMe button {
     display: inline-block;
@@ -59,4 +65,15 @@
     border-radius: 5px;
     margin-top: 20px;
   }
+
+  @media screen and (min-width:1024px) {
+    .content {
+      display: flex;
+      flex-direction: row;
+      padding: 30px;
+      justify-content: center;
+      align-items: center;
+      
+    }
+ }
   
