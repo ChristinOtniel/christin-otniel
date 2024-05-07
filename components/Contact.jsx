@@ -86,7 +86,7 @@ export default function Contact() {
         <div className={styles.container__contact}>
             <div className={styles.form__info}>
                 <div className={styles.contact_info_contact}>
-                    <p className={styles.title}>On reste en contact?</p>
+                    <p className={styles.title}>Au plaisir de discuter avec vous!!</p>
                     <p className={styles.text}>
                         Vous souhaitez nous contactez, avoir davantages d&apos;informations
                         sur CODIN , Nous sommes joignables
