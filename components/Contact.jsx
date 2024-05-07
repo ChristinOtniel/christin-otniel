@@ -89,7 +89,7 @@ export default function Contact() {
                     <p className={styles.title}>On reste en contact?</p>
                     <p className={styles.text}>
                         Vous souhaitez nous contactez, avoir davantages d&apos;informations
-                        sur Entraide App ou tout simplement papoter, Nous sommes joignables
+                        sur CODIN , Nous sommes joignables
                         par téléphone, WhatsApp ou email.
                     </p>
 
@@ -97,7 +97,7 @@ export default function Contact() {
                         <div className={styles.information}>
                             <Link href="tel:+18193199747" target="_blank" className={styles.contact__information}>
                                 <FaBlenderPhone className={styles.icon} />
-                                <p>+1 4382237533</p>
+                                <p>+1 1111111111</p>
                             </Link>
                         </div>
                         <div className={styles.information}>
