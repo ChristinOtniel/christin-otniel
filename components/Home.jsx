@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Home.module.css';
 import Image from 'next/image'
-import Otniel from '@/public/img/otniel2.png';
+import Otniel from '@/public/img/otniel4 .jpg';
 import { FormattedMessage } from 'react-intl';
 
 
