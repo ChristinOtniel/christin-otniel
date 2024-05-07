@@ -6,8 +6,9 @@ import Image from 'next/image'
 import sedric_photo from '@/public/img/Sedric.png'
 import otniel_photo from '@/public/img/otniel3.jpg'
 import gladice_photo from '@/public/img/Gladice.png';
+import yvana_photo from '@/public/img/yvana.jpg';
 import invite_photo from '@/public/img/Invite.png';
-
+import mardochee_photo from '@/public/img/mardochee.jpg';
 
 
 /**
@@ -67,7 +68,7 @@ export default function Intervenants() {
                 <Image src={gladice_photo} alt='Gladice-photo' />
                 <div className={styles.Intervenant_title}>
                     <h2>Franck Kouagnang</h2>
-                    <h3>Analyst-Programmeur</h3>
+                    <h3>Developer full stack</h3>
                 </div>
                 <h2>web site: </h2>
                 <div className={styles.Intervenant_social_media}>
@@ -79,10 +80,10 @@ export default function Intervenants() {
 
             {/* Intervenant4 */}
             <div className={styles.card}>
-                <Image src={invite_photo} alt='Invite-photo' />
+                <Image src={mardochee_photo} alt='Invite-photo' />
                 <div className={styles.Intervenant_title}>
-                    <h2>Membre</h2>
-                    <h3>Analyst-Programmeur</h3>
+                    <h2>Mayaki mardochee</h2>
+                    <h3>Deseigner</h3>
                 </div>
                 <h2>web site:</h2>
                 <div className={styles.Intervenant_social_media}>
@@ -94,10 +95,10 @@ export default function Intervenants() {
 
             {/* Intervenant5 */}
             <div className={styles.card}>
-                <Image src={invite_photo} alt='Invite-photo' />
+                <Image src={yvana_photo} alt='Invite-photo' />
                 <div className={styles.Intervenant_title}>
-                    <h2>Membre</h2>
-                    <h3>Analyst-Programmeur</h3>
+                    <h2>Yvana Masso</h2>
+                    <h3>Developer full stack</h3>
                 </div>
                 <h2>web site:</h2>
                 <div className={styles.Intervenant_social_media}>
@@ -111,8 +112,8 @@ export default function Intervenants() {
             <div className={styles.card}>
                 <Image src={invite_photo} alt='Invite-photo' />
                 <div className={styles.Intervenant_title}>
-                    <h2>Membre</h2>
-                    <h3>Analyst-Programmeur</h3>
+                    <h2>SOTODONOU Houlda</h2>
+                    <h3>Developer full stack</h3>
                 </div>
                 <h2>web site:</h2>
                 <div className={styles.Intervenant_social_media}>

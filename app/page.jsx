@@ -1,3 +1,4 @@
+import Home from '@/components/Home';
 import About from '@/components/About';
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
@@ -23,6 +24,7 @@ export default function Accueil() {
 
 
   return <>
+    <Home />
     <About />
     <Services />
     <Portfolio />
