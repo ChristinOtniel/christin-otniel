@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './About.module.css';
-import Link from 'next/link';
+//import Link from 'next/link';
 import { FormattedMessage } from 'react-intl';
 import Link from 'next/link';
 
@@ -39,7 +39,7 @@ export default function About() {
             </ul> 
           </div>
           <div className={styles.hireMe}>
-            <Link href="./CV.pdf" download>
+            <Link href="./CV.pdf" >
               <button>Télécharger mon CV</button>
             </Link>
           </div>
