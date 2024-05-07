@@ -39,7 +39,7 @@ export default function About() {
             </ul> 
           </div>
           <div className={styles.hireMe}>
-            <Link href="@/public/CV.pdf" download>
+            <Link href="./CV.pdf" download>
               <button>Télécharger mon CV</button>
             </Link>
           </div>
