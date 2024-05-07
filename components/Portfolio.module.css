@@ -11,9 +11,9 @@
 
 .projects {
   display: grid;
-  grid-template-columns: auto ;
+  grid-template-columns: auto;
   justify-content: center;
-width: auto;
+  width: auto;
 
 }
 
@@ -22,7 +22,7 @@ width: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-   
-  
+
+
   }
 }

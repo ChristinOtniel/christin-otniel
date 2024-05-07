@@ -1,6 +1,6 @@
 
 .section{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../public/img/Baniere.webp') center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../public/img/banniere.png') center center fixed no-repeat;
     background-size: cover;
     height: 80vh;
     width: 100%;
@@ -30,7 +30,7 @@
 .container2 p{
     font-size: 20px;
     text-align: center;
-    color: black;
+    color: var(--first-color);
     font-weight: 1000;
 }
 
