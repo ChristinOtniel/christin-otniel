@@ -36,10 +36,10 @@ export default function About() {
               <li>Freelance: <span>Disponible</span></li>
               <li>Année d&apos;experience: <span>07+</span></li>
               <li>Poste Actuelle: <span>Manager Developpeur Web chez GSP Echos du Reveil</span></li>
-            </ul>
+            </ul> 
           </div>
           <div className={styles.hireMe}>
-            <Link href="/CV.pdf" download>
+            <Link href="@/public/CV.pdf" download>
               <button>Télécharger mon CV</button>
             </Link>
           </div>
