@@ -42,9 +42,9 @@
 }
 
 .card img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 80%;
 }
 
 .Intervenant_title {
