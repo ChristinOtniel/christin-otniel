@@ -61,17 +61,17 @@
 
 /* Your default theme */
 body {
-  background-color: var(--background);
+  background-color:  #ecc19c;
   color: var(--foreground);
   --service-color: #f5f5f5;
   --Equipe-color: #f5f5f5;
 }
 
 [data-theme='dark'] body {
-  background-color:black;
+  background-color:#201e20;
   color: white;
-  --service-color: black;
-  --Equipe-color:black;
+  --service-color:#201e20;
+  --Equipe-color:#201e20;
 }
 
 /* Couleur de fond pour le header en mode sombre */
