@@ -16,6 +16,11 @@
     text-align: center;
   }
 
+  .texte {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
 
 .card.dark {
     background-color: black;
