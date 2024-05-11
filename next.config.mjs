@@ -4,7 +4,9 @@ const nextConfig = {
         unoptimized: true
     },
     output: 'export',
-    basePath: process.env.NODE_ENV === 'production' ? '/christin-otniel' : ''
+    basePath: '/docs'
 };
+
+
 
 export default nextConfig;
