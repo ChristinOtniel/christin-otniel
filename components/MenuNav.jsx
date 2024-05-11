@@ -58,19 +58,19 @@ export default function MenuNav() {
                         <FormattedMessage id='app.header.menu.link1' />
                     </Link></div>
                 <div>
-                    <Link href="/docs/#Services" className={styles.menu_color }>
+                    <Link href="/docs/Services" className={styles.menu_color }>
                         <FormattedMessage id='app.header.menu.link3' />
                     </Link></div>
                 <div>
-                    <Link href="/docs/#Portfolio" className={styles.menu_color }>
+                    <Link href="/docs/Portfolio" className={styles.menu_color }>
                         <FormattedMessage id='app.header.menu.link4' />
                     </Link></div>
                 <div>
-                    <Link href="/docs/#about" className={styles.menu_color }>
+                    <Link href="/docs/about" className={styles.menu_color }>
                         <FormattedMessage id='app.header.menu.link2' />
                     </Link></div>
                 <div>
-                    <Link href="/docs/#Equipe" className={styles.menu_color }>
+                    <Link href="/docs/Equipe" className={styles.menu_color }>
                         <FormattedMessage id='app.header.menu.link5' />
                     </Link></div>
                 <div>
