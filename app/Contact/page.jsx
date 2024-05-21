@@ -10,7 +10,7 @@ export const metadata = {
     openGraph: {
         title: 'Contactez Christin',
         description: 'Page  de contact ',
-        
+        images: ['./logo_couleur.jpg']
     }
 }
 

@@ -20,9 +20,10 @@ export const metadata = {
   openGraph: {
     title: 'Otniel Christin SOTODONOU',
     description: 'Site personnel de christin SOTODONOU',
-
+      images: ['./img/logo_couleur.jpg']
+    }
   }
-}
+
 
 export default function RootLayout({ children }) {
 
@@ -32,7 +33,7 @@ export default function RootLayout({ children }) {
         <LocaleProvider>
           <Header />
           <main className={styles.main}>
-            
+
             <div className={styles.div}> {children}</div>
           </main>
           <Footer />

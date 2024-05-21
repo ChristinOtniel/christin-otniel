@@ -10,7 +10,7 @@ export const metadata = {
     openGraph: {
         title: 'Prendre Rdv Avec Christin',
         description: 'Page de prise de rdv avec christin',
-       
+        images: ['./logo_couleur.jpg']
     }
 }
 
