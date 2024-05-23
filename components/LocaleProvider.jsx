@@ -1,3 +1,5 @@
+'use client'
+
 import { createContext, useContext, useEffect, useState } from 'react';
 import { IntlProvider } from 'react-intl';
 import englishData from '@/i18n/en.json';
