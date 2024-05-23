@@ -10,7 +10,7 @@ export const metadata = {
     openGraph: {
         title: 'Contactez Christin',
         description: 'Page  de contact ',
-        images: ['/img/logo_couleur.jpg']
+        images: ['https://christinotniel.github.io/christin-otniel/img/logo_couleur.jpg']
     }
 }
 

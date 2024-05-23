@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: 'Otniel Christin SOTODONOU',
     description: 'Site personnel de christin SOTODONOU',
-    images: ['/img/logo_couleur.jpg']
+    images: ['https://christinotniel.github.io/christin-otniel/img/logo_couleur.jpg']
   }
 }
 
