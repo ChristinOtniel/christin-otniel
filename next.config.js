@@ -4,7 +4,7 @@ const nextConfig = {
         unoptimized: true
     },
     output: 'export',
-    
+    basePath: '/christin-otniel'
 };
 
 
