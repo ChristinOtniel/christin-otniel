@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: 'Accueil CODIN',
     description: 'Page d\'accueil du site personnel de christin ',
-    images: ['./logo_couleur.jpg']
+    images: ['./img/logo_couleur.jpg']
   }
 }
 
